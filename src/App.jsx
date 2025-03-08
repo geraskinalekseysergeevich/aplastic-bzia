@@ -4,10 +4,10 @@ import './index.css'
 export function App() {
 	return (
 		<div className="container">
-			<img src="/public/logo.svg" alt="" className="logo" />
+			<img src="/logo.svg" alt="" className="logo" />
 			<ParticleCanvas />
-			<img src="/public/text.svg" alt="" className="text" />
-			<img src="/public/scroll-icon.svg" alt="" className="scroll" />
+			<img src="/text.svg" alt="" className="text" />
+			<img src="/scroll-icon.svg" alt="" className="scroll" />
 		</div>
 	)
 }
