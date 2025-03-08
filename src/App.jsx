@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import { ParticleCanvas } from './ParticleCanvas'
 import './index.css'
 
@@ -8,6 +9,7 @@ export function App() {
 			<ParticleCanvas />
 			<img src="/text.svg" alt="" className="text" />
 			<img src="/scroll-icon.svg" alt="" className="scroll" />
+			<Analytics />
 		</div>
 	)
 }

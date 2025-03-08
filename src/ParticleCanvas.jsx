@@ -73,11 +73,11 @@ export const ParticleCanvas = () => {
 					} else {
 						if (this.x !== this.baseX) {
 							const dx = this.x - this.baseX
-							this.x -= dx / 85
+							this.x -= dx / 60
 						}
 						if (this.y !== this.baseY) {
 							const dy = this.y - this.baseY
-							this.y -= dy / 85
+							this.y -= dy / 60
 						}
 					}
 				}
